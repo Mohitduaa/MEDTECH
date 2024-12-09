@@ -36,8 +36,8 @@ fetch("./cards.json")
 
       for (let i = 1; i <= totalPages; i++) {
         paginationButtons.push(`
-          <div class="bg-[#C6C0F9] w-[60px] h-[60px] rounded-xl ${
-            currentPage === i ? "bg-[#091AB0]" : ""
+          <div class="bg-[#087c7c] w-[60px] h-[60px] rounded-xl ${
+            currentPage === i ? "bg-[#087c7c]" : ""
           }">
             <div class="text-[20px] text-white text-center mt-4" data-page="${i}">${i}</div>
           </div>
